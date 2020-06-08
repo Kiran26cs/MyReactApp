@@ -1,4 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render("Hello World", document.getElementById('root'))
+
+ReactDOM.render("First Page of the application", document.getElementById('root'))
+
+serviceWorker.unregister();
